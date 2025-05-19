@@ -1,0 +1,30 @@
+@startmindmap
+* Устройства
+** Колонка
+*** Принять голосовую команду
+**** /anyroom/speaker/getCommand
+*** Воспроизвести сигнал будильника
+**** /anyroom/speaker/alongClock/play
+** Приложение/смартфон
+*** Данные настройки датчика
+**** /anyroom/temperature/sensor/setTemperture
+**** /anyroom/temperature/sensor/getTemperature
+*** Настройки расписания
+*** Настройки команд
+** Подъёмник штор
+*** Состояние штор
+**** /anyroom/curtains/curtain1/status
+**** /anyroom/curtains/curtain2/status
+*** Изменение состояния
+**** /anyroom/curtains/curtain1/control
+**** /anyroom/curtains/curtain2/control
+** Световое устройство
+*** Получение состояния устройства
+**** /anyroom/light/light1/status
+*** Изменение состояния
+**** /anyroom/light/light1/control
+** Кондиционер
+*** Получение состояния кондиционера
+*** Изменение состояния
+
+@endmindmap
